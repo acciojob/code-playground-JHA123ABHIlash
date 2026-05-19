@@ -30,20 +30,19 @@ const App = () => {
             </div>
         )}
         </nav>
-        <div>
-          <Link to="/"/>
+        
           <ul>
             <li>
               <Link to="/playground"> PlayGround</Link>
             </li>
             <li><Link to="/login">Login</Link></li>
           </ul>
-        </div>
+        
         <Switch>
 
           <Route exact path="/" render={() => <div>Page not Found</div>}></Route>
 
-          <Route path="/PlayGround" render={()=>(
+          <Route path="/playGround" render={()=>(
 
             <PrivateRoute islogged={islogged}>
               <PlayGround/>
