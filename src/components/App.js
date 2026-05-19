@@ -26,7 +26,7 @@ const App = () => {
         ):(
             <div>
                 
-                <p>You are not authenticated,Please login first</p>
+                <p>You are not authenticated, Please login first</p>
             </div>
         )}
         </nav>
