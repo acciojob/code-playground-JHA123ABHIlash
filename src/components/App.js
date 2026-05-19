@@ -21,7 +21,7 @@ const App = () => {
              { islogged ? (
             <div>
                
-                <p>Logged In, Now you can Enter PlayGround</p>
+                <p>Logged in, Now you can enter Playground</p>
             </div>
         ):(
             <div>

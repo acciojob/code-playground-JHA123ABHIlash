@@ -12,12 +12,12 @@ export default function Login({islogged,setIslogged}) {
         
         { islogged ? (
             <div>
-                <button onClick={handleBtn}>Logout</button>
+                <button onClick={handleBtn}>Log Out</button>
                 
             </div>
         ):(
             <div>
-                <button onClick={handleBtn}>Login</button>
+                <button onClick={handleBtn}>Log In</button>
                
             </div>
         )}
